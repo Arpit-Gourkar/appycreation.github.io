@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*.Homemain {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  margin: 0px;
+  padding: 0px;
+}*/
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../Images//Arpit.JPG");
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home .home-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(249, 47, 12);
+  width: 30%;
+  height: 40%;
+  border-radius: 0px 200px 200px 0px;
+  gap: 5px;
+}
+.home-heading h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+.home-heading h2 {
+  text-align: center;
+
+  background-image: linear-gradient(to right, black, rgb(209, 200, 200));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.home-heading p {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+}
+
+.home2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../Images//back1.jpg");
+  background-size: cover;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.home-para {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+  background-color: rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(10px);
+}
+.home-para h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+  padding: 20px;
+  font-weight: 800;
+  word-spacing: 3px;
+  font-family: "Roboto Slab", serif;
+  animation: textmove 1s linear infinite alternate;
+}
+@keyframes textmove {
+  to {
+    transform: translateX(20px);
+  }
+}
+.home-para p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.imageslider {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
+  padding: 40px;
+}
+
+/*--------------------------------------------------Home4---------------------------------------------*/
+.Home4-main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+  background-color: black;
+}
+.Home4-main h2 {
+  text-align: center;
+  color: rgb(255, 38, 0);
+  background-color: transparent;
+  text-transform: uppercase;
+}
+.home4 {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.H4-1 {
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  margin-top: -40px;
+  background-image: url("../Images/pop1.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  border: 2px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.H4-1 p {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.295);
+  color: black;
+}
+.H4-1 p:hover {
+  filter: invert(1);
+}
+.H4-2 {
+  width: 250px;
+  height: 300px;
+  background-image: url("../Images//pop2.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  border: 2px solid gray;
+  position: relative;
+}
+.H4-2 p {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.295);
+  color: black;
+}
+.H4-2 p:hover {
+  filter: invert(1);
+}
+.H4-3 {
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  margin-top: -40px;
+  background-image: url("../Images//pop3.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  border: 2px solid gray;
+  position: relative;
+}
+.H4-3 p {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.295);
+  color: black;
+}
+.H4-3 p:hover {
+  filter: invert(1);
+}
+.H4-4 {
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid gray;
+  background-image: url("../Images//card.jpg");
+  position: relative;
+}
+.H4-4 p {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.295);
+  color: black;
+}
+.H4-4 p:hover {
+  filter: invert(1);
+}
+/*..............................................MEDIA QUERY*................................................/
+/* media query for 600px */
+@media screen and (max-width: 600px) {
+  .home {
+    height: 60vh;
+  }
+  .home2 {
+    height: 60vh;
+  }
+  .home-para {
+    margin-bottom: 7rem;
+  }
+  .home-para h1 {
+    font-size: 1.3rem;
+  }
+  .imageslider {
+    padding: 5px 10px;
+    border: none;
+  }
+  .carousel .slider-wrapper {
+    width: 90%;
+  }
+  .Home4-main {
+    height: 200vh;
+  }
+  .home4 {
+    height: 190vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+  .home4 .H4-1 {
+    width: 300px;
+    height: 300px;
+    margin-top: 0px;
+  }
+  .home4 .H4-2 {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0px;
+  }
+  .home4 .H4-3 {
+    width: 300px;
+    height: 300px;
+    margin-top: 0px;
+  }
+  .home4 .H4-4 {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0px;
+  }
+  .Home4-main h2 {
+    font-size: 1.2rem;
+    padding: 0px 10px;
+  }
+}
+/* media query for 480px */
+
+@media screen and (max-width: 480px) {
+  .home {
+    height: 45vh;
+  }
+  .home .home-heading {
+    width: 45%;
+  }
+  .home-para h1 {
+    font-size: 1.2rem;
+  }
+  .home-para p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 440px) {
+  .home .home-heading h2 {
+    font-size: 0.8rem;
+  }
+}
+
+/*.............................................................................................................*/
+
+@media screen and (max-width: 414px) {
+  .home .home-heading h1 {
+    font-size: 0.6rem;
+  }
+  .home .home-heading p {
+    font-size: 0.7rem;
+  }
+  .home-para {
+    height: 40vh;
+    backdrop-filter: none;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .home {
+    height: 30vh;
+  }
+}

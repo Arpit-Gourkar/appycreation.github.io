@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.work-container {
+  width: 100%;
+  padding: 20px;
+  background-color: black;
+}
+.mycarousel {
+  border: none;
+}
+.carousel .slider-wrapper {
+  width: 70%;
+}
+.work-container2 {
+  width: 100%;
+  margin-top: 10px;
+  background-color: rgba(243, 243, 243, 0.057);
+  border: 1px solid rgba(126, 123, 117, 0.477);
+  height: 120vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+.work-container2 font {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    to right,
+    blue,
+    rgb(240, 7, 240),
+    rgb(105, 2, 105)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.work-container2 font:hover {
+  transform: rotateX(360deg);
+  transition: all 1s ease-in-out;
+}
+.workimages {
+  width: 100%;
+  height: 110vh;
+  padding: 20px;
+}
+#workimg {
+  width: 25%;
+  height: 300px;
+  padding: 2px;
+}
+#workimg:hover {
+  transform: rotateY(360deg);
+  transition: all 1s ease-in-out;
+}
+
+/*............................................Media Query........................................................*/
+/*media query 600px*/
+@media screen and (max-width: 600px) {
+  .work-container2 {
+    height: 220vh;
+  }
+  #workimg {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .work-container2 {
+    height: 230vh;
+  }
+}
+@media screen and (max-width: 428px) {
+  .work-container2 {
+    height: 220vh;
+  }
+}

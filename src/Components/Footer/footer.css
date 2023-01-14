@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.footer-container {
+  width: 100%;
+  height: 40vh;
+  background-color: gray;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer p {
+  text-align: center;
+  padding: 10px;
+}
+.footer-content {
+  width: 100%;
+  height: 35vh;
+  padding: 0px 20px;
+  background-color: rgba(0, 0, 0, 0.425);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 33%;
+  height: 30vh;
+  padding: 20px 0px;
+  background-color: transparent;
+  border-right: 2px solid black;
+}
+.link #navlink {
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+}
+.link #navlink:hover {
+  color: rgb(255, 38, 0);
+  text-decoration: underline;
+  text-decoration-color: black;
+  font-style: oblique;
+}
+.social-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 33%;
+  height: 30vh;
+  background-color: transparent;
+  border-right: 2px solid black;
+}
+.social-icon a .s-icon {
+  font-size: 2rem;
+  color: black;
+  border-radius: 50%;
+}
+.social-icon a .s-icon:hover {
+  transform: rotate(360deg);
+  transition: all 0.2s ease-in-out;
+}
+.whatsapp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  height: 30vh;
+  background-color: transparent;
+}
+.whatsapp p {
+  padding-top: 5px;
+}
+.whatsapp img {
+  padding-top: 5px;
+  width: 120px;
+  height: 120px;
+}
